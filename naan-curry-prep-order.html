@@ -619,7 +619,7 @@
       var note = noteEl ? noteEl.value.trim() : '';
       if (items.length > 0 || note) {
         hasAny = true;
-        msg += listDef.label + '\n';
+        msg += '\n' + listDef.label + '\n';
         items.forEach(function(line) { msg += line + '\n'; });
         if (note) msg += 'Note: ' + note + '\n';
       }
