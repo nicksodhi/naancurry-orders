@@ -621,7 +621,7 @@
       if (inp.value && parseFloat(inp.value) > 0) {
         var l = inp.getAttribute('data-list');
         if (!byList[l]) byList[l] = [];
-        byList[l].push(inp.getAttribute('data-item') + ': ' + inp.value + ' ' + inp.getAttribute('data-unit'));
+        byList[l].push(inp.getAttribute('data-item') + ': ' + inp.value);
       }
     });
 
